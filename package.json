@@ -2,7 +2,7 @@
   "name": "masonry-project",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --env dev --port 8081",
+    "start": "webpack-dev-server --env dev --port 8080",
     "build": "ENV=production webpack --progress --profile --colors",
     "clean": "rimraf dist/*",
     "publish": "npm run build && git add dist && git commit -m 'latest' dist ; git subtree push --prefix dist origin gh-pages"
