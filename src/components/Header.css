@@ -1,0 +1,89 @@
+.Header {
+  text-align: center;
+  background: white;
+  width: 75%;
+  margin: auto;
+  padding-top:50px;
+  height:400px;
+  background-image:url('../../static/media/Two_men_on_horseback.jpg');
+  background-size:cover;
+  background-position-y:50px;
+  position: relative;
+}
+
+.Header h1 {
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background: rgba(42, 58, 42, 0.5);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+.Header .facets {
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.Corner{
+  font-family: Arial, sans-serif;
+	position:absolute;
+	width:0;
+	height:0;
+	margin: 0 !important;
+	border: 0 solid transparent;
+  border-left: 200px solid red;
+	border-bottom-width:200px;
+	border-top-width:0px;
+
+}
+
+.Corner span {
+	position:absolute;
+	transform:rotate(-45deg);
+	color:white;
+	padding:10px;
+	text-align:center;
+	left:-200px;
+	top:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.Corner .SpanOne {
+  font-size: 1.4em;
+  top:10px;
+  left:-210px;
+}
+
+.Corner .SpanTwo {
+  font-size: 0.7em;
+  line-height:1.7;
+  padding:0;
+  top:40px;
+  left: -210px; 
+}
+
+@media only screen and (max-width: 1250px) {
+	.Header h1 {
+		padding-top:200px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.Header {
+		height:200px;
+		width:90%;
+	}
+	.Header h1 {
+		font-size:20px;
+		padding-top:100px;
+	}
+  .Corner {
+    display:none;
+  }
+}

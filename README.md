@@ -1,0 +1,1 @@
+A template for displaying Masonry-style images

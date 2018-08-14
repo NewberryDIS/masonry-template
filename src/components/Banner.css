@@ -1,0 +1,45 @@
+.Banner {
+	height:40px;
+	background:#444;
+	width:100%;
+	text-overflow:clip;
+	position:fixed;
+	padding:5px;
+	z-index:9999;
+}
+
+.LogoName {
+	color:white;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	margin-left:200px;
+}
+
+.LogoName img {
+	height:100%;
+	float:left;
+}
+
+.BannerTitle {
+	margin-left: 20px;
+    display: table;
+    float: left;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: calibri, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 770px) {
+	.BannerTitle {
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.BannerTitle {
+		font-size:16px;
+	}
+}

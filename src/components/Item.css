@@ -1,0 +1,27 @@
+.Item {
+  font-size: 18pt;
+}
+
+.Item figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Item img {
+}
+
+.Item figcaption {
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.Item figcaption div {
+  margin-bottom: 30px;
+}
+
+.Item header {
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

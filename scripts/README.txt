@@ -1,0 +1,1 @@
+This script uses the CONTENTdm export function to get data from digital collections. You may have to reconfigure some parameters to get the exact results you want.

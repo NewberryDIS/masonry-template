@@ -1,0 +1,26 @@
+.Image {
+  margin: 0;
+  display: inline-block;
+  width: 225px;
+  /* border: 3px groove #eee; */
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ImageLoading {
+  display: none;
+}
+
+.Image img {
+  width: 200px;
+}
+
+.Image figcaption {
+  color: black;
+}
+
+.Image:hover {
+  box-shadow: 3px 4px #999;
+}
